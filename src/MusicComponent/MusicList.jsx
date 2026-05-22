@@ -4,11 +4,12 @@ import MusicItem from "./MusicItem";
 function MusicList({ music = [], onDelete }) {
     return (
         <div className="music-list">
-            {music.map((music) => (
+            {music.map((item) => (
                 <MusicItem
-                    key={music.id}
-                    {...music}
-                    onDelete={onDelete}
+                    key={item.id}
+                    musickey={item.musickey}
+                    {...item}               
+                    onDelete={onDelete}      
                 />
             ))}
         </div>
