@@ -90,6 +90,51 @@ const getData = () => {
             musickey: 'A Major',
             imageUrl: '/images/reality.jpeg'
         },
+        {
+            id: 11,
+            title: 'Satu Yang Tak Bisa Lepas',
+            artist: 'Reza Artamevia',
+            bpm : 134,
+            album: 'Keajiban',
+            musickey: 'D Major',
+            imageUrl: '/images/keajaiban.jpg'
+        },
+        {
+            id: 12,
+            title: 'seasons',
+            artist: 'wave to earth',
+            bpm : 60,
+            album: 'Sounds of Silence',
+            musickey: 'G Major',
+            imageUrl: '/images/seasons.jpg'
+        },
+        {
+            id: 13,
+            title: 'Lagu Cinta',
+            artist: 'Dewa',
+            bpm : 153,
+            album: 'Biintang Lima',
+            musickey: 'A Minor',
+            imageUrl: '/images/bintangLima.jpeg'
+        },
+        {
+            id: 14,
+            title: 'Killer Queen',
+            artist: 'Queen Greatest Hits',
+            bpm : 120,
+            album: 'A Night at the Opera',
+            musickey: 'E Flat Major',
+            imageUrl: '/images/queen.jpg'
+        },
+        {
+            id: 15,
+            title: 'bonfire',
+            artist: 'wave to earth',
+            bpm : 194,
+            album: 'wave 0.01',
+            musickey: 'A Major7',
+            imageUrl: '/images/bonfire.jpg'
+        }
     ]
 }
 export { getData };
