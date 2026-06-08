@@ -95,7 +95,7 @@ const getData = () => {
             title: 'Satu Yang Tak Bisa Lepas',
             artist: 'Reza Artamevia',
             bpm : 134,
-            album: 'Keajiban',
+            album: 'Keajaiban',
             musickey: 'D Major',
             imageUrl: '/images/keajaiban.jpg'
         },
@@ -104,7 +104,7 @@ const getData = () => {
             title: 'seasons',
             artist: 'wave to earth',
             bpm : 60,
-            album: 'Sounds of Silence',
+            album: 'Wave 0.01',
             musickey: 'G Major',
             imageUrl: '/images/seasons.jpg'
         },

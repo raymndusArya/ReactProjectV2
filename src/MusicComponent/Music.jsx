@@ -34,7 +34,7 @@
     }) {
 
       const newMusic = {
-        id: +new Date(),
+        id: + new Date(),
         title,
         artist,
         imageUrl,

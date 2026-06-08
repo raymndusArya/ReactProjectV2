@@ -5,9 +5,7 @@ function DeleteButton({ id, onDelete }) {
         <button 
             className="music-button-delete" 
             onClick={(e) => onDelete(e, id)}
-        >
-            Delete
-        </button>
+        >Delete</button>
     );
 }
 

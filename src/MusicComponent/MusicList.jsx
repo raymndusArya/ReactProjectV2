@@ -7,6 +7,7 @@ function MusicList({ music = [], onDelete }) {
             {music.map((item) => (
                 <MusicItem
                     key={item.id}
+                    
                     musickey={item.musickey}
                     {...item}               
                     onDelete={onDelete}      

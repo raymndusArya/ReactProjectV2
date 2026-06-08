@@ -23,11 +23,11 @@ function MusicItem({
             <MusicImage imageUrl={imageUrl} />
 
             <MusicBody
-                title={title}
-                artist={artist}
-                album={album}
-                bpm={bpm}
-                musickey={musickey}
+                title    = {title}
+                artist   = {artist}
+                album    = {album}
+                bpm      = {bpm}
+                musickey = {musickey}
             />
 
             <DeleteButton
